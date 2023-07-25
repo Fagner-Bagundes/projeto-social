@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
 }
     body{
         background-image: url(../imagens/fundo-madeira.jpg);
@@ -17,8 +18,7 @@
         align-items:center ;
         width: 100%;
         margin-top: 100px;
-        gap: 130px;
-        gap: 30vw;
+        gap: 20vw;
     }
     
 
