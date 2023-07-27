@@ -55,16 +55,18 @@
         width: 60px;
         border-radius: 60px;
         margin-top: 10px;
-        box-sizing: border-box;
+        
       
     }
     
     .logo>a>img:hover{
+        box-sizing: border-box;
         transition-duration: 1s;
         border: 7px solid rgba(255, 255, 255, 0.338);
+        transform:translateY(10px, top);
     }
 
-    @media  (min-width:700px) {
+    @media  (min-width:670px) {
         main{
             gap: 35vw;
           
